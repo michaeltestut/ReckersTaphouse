@@ -1,34 +1,20 @@
 {
 	"configurations": [
 		{
-			"name": "ReckersTaphouseEditor Editor Mac Development (ReckersTaphouse)",
-			"compilerPath": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
-			"compilerArgs": [
-				"-isysroot",
-				"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
-			],
-			"macFrameworkPath": [
-				"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
-			],
+			"name": "ReckersTaphouseEditor Editor Win64 Development (ReckersTaphouse)",
+			"compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
 			"cStandard": "c17",
 			"cppStandard": "c++20",
-			"intelliSenseMode": "clang-x64",
-			"compileCommands": "/Users/michaeltestut/Documents/Unreal Projects/ReckersTaphouse/.vscode/compileCommands_ReckersTaphouse.json"
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "C:\\Users\\micha\\OneDrive\\Documents\\Unreal Projects\\ReckersTaphouse\\.vscode\\compileCommands_ReckersTaphouse.json"
 		},
 		{
-			"name": "Mac",
-			"compilerPath": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
-			"compilerArgs": [
-				"-isysroot",
-				"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
-			],
-			"macFrameworkPath": [
-				"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
-			],
+			"name": "Win32",
+			"compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
 			"cStandard": "c17",
 			"cppStandard": "c++20",
-			"intelliSenseMode": "clang-x64",
-			"compileCommands": "/Users/michaeltestut/Documents/Unreal Projects/ReckersTaphouse/.vscode/compileCommands_Default.json"
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "C:\\Users\\micha\\OneDrive\\Documents\\Unreal Projects\\ReckersTaphouse\\.vscode\\compileCommands_Default.json"
 		}
 	]
 }
