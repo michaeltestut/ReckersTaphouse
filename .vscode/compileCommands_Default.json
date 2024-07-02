@@ -1,58 +1,58 @@
 [
 	{
-		"file": "C:\\Users\\micha\\OneDrive\\Documents\\Unreal Projects\\ReckersTaphouse\\Source\\ReckersTaphouse\\ReckersTaphouse.Build.cs",
+		"file": "/Users/michaeltestut/Documents/Unreal Projects/ReckersTaphouse/Source/ReckersTaphouse/ReckersTaphouse.Build.cs",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\micha\\OneDrive\\Documents\\Unreal Projects\\ReckersTaphouse\\.vscode\\compileCommands_Default\\ReckersTaphouse.1.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/michaeltestut/Documents/Unreal Projects/ReckersTaphouse/.vscode/compileCommands_Default/ReckersTaphouse.1.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.4/Engine/Source"
 	},
 	{
-		"file": "C:\\Users\\micha\\OneDrive\\Documents\\Unreal Projects\\ReckersTaphouse\\Source\\ReckersTaphouse\\ReckersTaphouse.cpp",
+		"file": "/Users/michaeltestut/Documents/Unreal Projects/ReckersTaphouse/Source/ReckersTaphouse/ReckersTaphouse.cpp",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\micha\\OneDrive\\Documents\\Unreal Projects\\ReckersTaphouse\\.vscode\\compileCommands_Default\\ReckersTaphouse.1.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/michaeltestut/Documents/Unreal Projects/ReckersTaphouse/.vscode/compileCommands_Default/ReckersTaphouse.1.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.4/Engine/Source"
 	},
 	{
-		"file": "C:\\Users\\micha\\OneDrive\\Documents\\Unreal Projects\\ReckersTaphouse\\Source\\ReckersTaphouse\\ReckersTaphouse.h",
+		"file": "/Users/michaeltestut/Documents/Unreal Projects/ReckersTaphouse/Source/ReckersTaphouse/ReckersTaphouse.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\micha\\OneDrive\\Documents\\Unreal Projects\\ReckersTaphouse\\.vscode\\compileCommands_Default\\ReckersTaphouse.1.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/michaeltestut/Documents/Unreal Projects/ReckersTaphouse/.vscode/compileCommands_Default/ReckersTaphouse.1.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.4/Engine/Source"
 	},
 	{
-		"file": "C:\\Users\\micha\\OneDrive\\Documents\\Unreal Projects\\ReckersTaphouse\\Source\\ReckersTaphouse\\ReckersTaphouseCharacter.cpp",
+		"file": "/Users/michaeltestut/Documents/Unreal Projects/ReckersTaphouse/Source/ReckersTaphouse/ReckersTaphouseCharacter.cpp",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\micha\\OneDrive\\Documents\\Unreal Projects\\ReckersTaphouse\\.vscode\\compileCommands_Default\\ReckersTaphouse.1.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/michaeltestut/Documents/Unreal Projects/ReckersTaphouse/.vscode/compileCommands_Default/ReckersTaphouse.1.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.4/Engine/Source"
 	},
 	{
-		"file": "C:\\Users\\micha\\OneDrive\\Documents\\Unreal Projects\\ReckersTaphouse\\Source\\ReckersTaphouse\\ReckersTaphouseCharacter.h",
+		"file": "/Users/michaeltestut/Documents/Unreal Projects/ReckersTaphouse/Source/ReckersTaphouse/ReckersTaphouseCharacter.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\micha\\OneDrive\\Documents\\Unreal Projects\\ReckersTaphouse\\.vscode\\compileCommands_Default\\ReckersTaphouse.1.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/michaeltestut/Documents/Unreal Projects/ReckersTaphouse/.vscode/compileCommands_Default/ReckersTaphouse.1.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.4/Engine/Source"
 	},
 	{
-		"file": "C:\\Users\\micha\\OneDrive\\Documents\\Unreal Projects\\ReckersTaphouse\\Source\\ReckersTaphouse\\ReckersTaphouseGameMode.cpp",
+		"file": "/Users/michaeltestut/Documents/Unreal Projects/ReckersTaphouse/Source/ReckersTaphouse/ReckersTaphouseGameMode.cpp",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\micha\\OneDrive\\Documents\\Unreal Projects\\ReckersTaphouse\\.vscode\\compileCommands_Default\\ReckersTaphouse.1.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/michaeltestut/Documents/Unreal Projects/ReckersTaphouse/.vscode/compileCommands_Default/ReckersTaphouse.1.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.4/Engine/Source"
 	},
 	{
-		"file": "C:\\Users\\micha\\OneDrive\\Documents\\Unreal Projects\\ReckersTaphouse\\Source\\ReckersTaphouse\\ReckersTaphouseGameMode.h",
+		"file": "/Users/michaeltestut/Documents/Unreal Projects/ReckersTaphouse/Source/ReckersTaphouse/ReckersTaphouseGameMode.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\micha\\OneDrive\\Documents\\Unreal Projects\\ReckersTaphouse\\.vscode\\compileCommands_Default\\ReckersTaphouse.1.rsp"
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/michaeltestut/Documents/Unreal Projects/ReckersTaphouse/.vscode/compileCommands_Default/ReckersTaphouse.1.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Source"
+		"directory": "/Users/Shared/Epic Games/UE_5.4/Engine/Source"
 	}
 ]

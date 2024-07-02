@@ -1,8 +1,8 @@
-/.git
-/.vscode
+/Saved
+/ReckersTaphouse (Mac).xcworkspace
 /Content
 /DerivedDataCache
-/Intermediate
 /ReckersTaphouse (IOS).xcworkspace
-/ReckersTaphouse (Mac).xcworkspace
-/Saved
+/.git
+/.vscode
+/Intermediate
