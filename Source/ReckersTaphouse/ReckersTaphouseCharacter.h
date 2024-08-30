@@ -7,6 +7,7 @@
 #include "Logging/LogMacros.h"
 #include "ReckersTaphouseCharacter.generated.h"
 
+class AInteractionActor;
 class USpringArmComponent;
 class UCameraComponent;
 class UInputMappingContext;
@@ -51,7 +52,12 @@ public:
 	AReckersTaphouseCharacter();
 	
 
+	void SetOverlappedItem(AInteractionActor* OverlappedActor);
+	AInteractionActor* InteractableActor;
 protected:
+
+	
+
 
 	/** Called for movement input */
 	void Move(const FInputActionValue& Value);
@@ -59,9 +65,8 @@ protected:
 	/** Called for looking input */
 	void Look(const FInputActionValue& Value);
 
-			
-
-protected:
+	void Interact();
+	
 	// APawn interface
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	

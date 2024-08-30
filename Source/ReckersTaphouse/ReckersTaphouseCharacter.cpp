@@ -10,6 +10,7 @@
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
+#include "Actors/InteractionActor.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -58,6 +59,8 @@ void AReckersTaphouseCharacter::BeginPlay()
 {
 	// Call the base class  
 	Super::BeginPlay();
+
+	Tags.Add(FName("PlayerCharacter"));
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -86,11 +89,21 @@ void AReckersTaphouseCharacter::SetupPlayerInputComponent(UInputComponent* Playe
 
 		// Looking
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AReckersTaphouseCharacter::Look);
+
+		//Interact
+		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, this, &AReckersTaphouseCharacter::Interact);
+
+		
 	}
 	else
 	{
 		UE_LOG(LogTemplateCharacter, Error, TEXT("'%s' Failed to find an Enhanced Input component! This template is built to use the Enhanced Input system. If you intend to use the legacy system, then you will need to update this C++ file."), *GetNameSafe(this));
 	}
+}
+
+void AReckersTaphouseCharacter::SetOverlappedItem(AInteractionActor* OverlappedActor)
+{
+	InteractableActor=OverlappedActor;
 }
 
 void AReckersTaphouseCharacter::Move(const FInputActionValue& Value)
@@ -126,6 +139,15 @@ void AReckersTaphouseCharacter::Look(const FInputActionValue& Value)
 		// add yaw and pitch input to controller
 		AddControllerYawInput(LookAxisVector.X);
 		AddControllerPitchInput(LookAxisVector.Y);
+	}
+}
+
+void AReckersTaphouseCharacter::Interact() 
+{
+	if(InteractableActor)
+	{
+		InteractableActor->Interact();
+		
 	}
 }
 
